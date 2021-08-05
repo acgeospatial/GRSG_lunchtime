@@ -61,6 +61,7 @@ Getting Jupyter Notebook up and running
 `pip install rtree`
 
 example
+
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/08_prompt.png)
 
 ### Step 7 
