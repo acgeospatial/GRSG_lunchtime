@@ -9,10 +9,7 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 ### Step 1
 Open your anaconda prompt
 
-<p align="center">
-  <img width="300" height="300" src="https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/01_prompt.png?w=300&h=300">
-</p>
-
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/01_prompt.png)
 
 
 conda create -n geo python=3.7.7
