@@ -17,6 +17,8 @@ Create a new Python 3.7.7 environment (you can change this if you wish to choose
 
 `conda create -n grsg python=3.7.7`
 
+when prompted type `y` for yes and follow on screen instructions as below:
+
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/02_prompt.png)
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/03_prompt.png)
@@ -30,18 +32,31 @@ Activate the environment via
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/05_prompt.png)
 
+You now have an activated virtual environment. Sometimes referred to as a venv
+
 ### Step 5
+Install the required geospatial packages. It is perfectly resonable to run `conda install -c conda-forge gdal geopandas etc` as one line. For complete clarity I'm doing it package by package. Accept y where necessary.
 
-conda install -c conda-forge gdal
+`conda install -c conda-forge gdal`
 
-conda install -c conda-forge geopandas
+`conda install -c conda-forge geopandas`
 
-pip uninstall rtree
+`pip uninstall rtree`
 
-conda install -c conda-forge matplotlib
+`conda install -c conda-forge matplotlib`
 
-conda install -c anaconda ipykernel
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/06_prompt.png)
 
-python -m ipykernel install --user --name=geo
+### Step 6
+Getting Jupyter Notebook up and running
 
-pip install rtree
+`conda install -c anaconda ipykernel`
+
+`python -m ipykernel install --user --name=grsg`
+
+`pip install rtree`
+
+### Step 7 
+Additional libraries
+
+
