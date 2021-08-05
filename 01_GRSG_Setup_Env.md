@@ -47,6 +47,10 @@ Install the required geospatial packages. It is perfectly resonable to run `cond
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/06_prompt.png)
 
+when install finishes
+
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/07_prompt.png)
+
 ### Step 6
 Getting Jupyter Notebook up and running
 
