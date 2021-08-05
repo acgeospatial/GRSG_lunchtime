@@ -1,4 +1,6 @@
-ttps://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+# Setup a virtual environment with basic Geo components
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 conda create -n geo python=3.7.7
 
