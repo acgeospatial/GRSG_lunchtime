@@ -17,9 +17,20 @@ Create a new Python 3.7.7 environment (you can change this if you wish to choose
 
 `conda create -n grsg python=3.7.7`
 
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/02_prompt.png)
 
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/03_prompt.png)
 
-activate geo
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/04_prompt.png)
+
+### Step 4
+Activate the environment via
+
+`conda activate grsg`
+
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/05_prompt.png)
+
+### Step 5
 
 conda install -c conda-forge gdal
 
