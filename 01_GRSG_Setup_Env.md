@@ -67,4 +67,33 @@ example
 ### Step 7 
 Additional libraries
 
+`conda install -c conda-forge rasterio`
+
+and whatever else you may need either now or the future
+
+### Step 8
+Testing
+
+navigate to a working folder for your code or a root. In my case my root of d: drive
+
+`d:`
+
+use cd (change directory) if you need
+
+and type 
+
+`jupyter notebook`
+
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/09_prompt.png)
+
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/10_prompt.png)
+
+![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/11_prompt.png)
+
+End
+
+
+
+
+
 
