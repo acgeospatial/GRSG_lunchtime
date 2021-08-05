@@ -7,12 +7,17 @@ This guide is for a windows 10 installation and assumes that the user has instal
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 ### Step 1
-Open your anaconda prompt
+Open your anaconda prompt. Note the (base) part. This is your base environment. In this guide we will be creating a new virtual environment called 'grsg'
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/01_prompt.png)
 
 
-conda create -n geo python=3.7.7
+### Step 2
+Create a new Python 3.7.7 environment (you can change this if you wish to choose an alternative version)
+
+`conda create -n grsg python=3.7.7`
+
+
 
 activate geo
 
