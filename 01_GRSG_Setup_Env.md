@@ -88,6 +88,12 @@ and type
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/10_prompt.png)
 
+sometimes... this does not work. If so try
+`pip install jupyter`
+
+you can check to see if it has installed by typing
+`jupyter --version`
+
 test to see if the libraries are installed correctly
 
 `from osgeo import gdal
