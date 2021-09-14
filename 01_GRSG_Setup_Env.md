@@ -104,7 +104,13 @@ with no errors you are all set
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/11_prompt.png)
 
-End
+## Removal in future (assuming grsg is the env name)
+
+if you wish in the future to remove the kernel from Jupyter use the command
+`jupyter kernelspec uninstall grsg`
+
+if you wish to remove the venv at the conda prompt type
+`conda env remove -n grsg`
 
 
 
