@@ -127,6 +127,7 @@ if you wish to remove the venv at the conda prompt type
 
 ### Problems?
 try these commands:
+
 `conda config --set allow_conda_downgrades true`
 
 `conda install conda=4.6.14`
