@@ -10,7 +10,9 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 
 ## a digression
 https://xkcd.com/1987/
+
 https://www.python.org/downloads/
+
 https://www.reddit.com/r/Python/comments/betkoj/why_use_anaconda/
 
 ### Step 1
