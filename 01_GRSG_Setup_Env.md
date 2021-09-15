@@ -8,6 +8,11 @@ https://www.anaconda.com/products/individual
 ## A useful link
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
+## a digression
+https://xkcd.com/1987/
+https://www.python.org/downloads/
+https://www.reddit.com/r/Python/comments/betkoj/why_use_anaconda/
+
 ### Step 1
 Open your anaconda prompt. Note the (base) part. This is your base environment. In this guide we will be creating a new virtual environment called 'grsg'
 
