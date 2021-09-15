@@ -125,7 +125,30 @@ if you wish to remove the venv at the conda prompt type
 `conda env remove -n grsg`
 
 
+### Problems?
+try these commands:
+`conda config --set allow_conda_downgrades true`
+`conda install conda=4.6.14`
+`conda install -c conda-forge gdal`
 
+### Mac OS?
+Firstly:
+
+conda install -c conda-forge/label/cf201901 gdal
+
+I think that ensures gdal is correctly installed.
+
+Secondly:
+
+gdalinfo –version
+
+To check I had gdal on the system
+
+Thirdly:
+
+conda install krb5
+
+Apparently this is a dependency of gdal but isn’t installed by default.
 
 
 
