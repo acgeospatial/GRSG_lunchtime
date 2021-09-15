@@ -1,6 +1,6 @@
 # Setup a virtual environment with basic Geo components
 
-This guide is for a windows 10 installation and assumes that the user has installed anaconda prior. For more detailed context please see my website https://www.acgeospatial.co.uk/python-geospatial-workflows-prt1-anaconda/
+<b>This guide is for a windows</b> 10 installation and assumes that the user has installed anaconda prior. For more detailed context please see my website https://www.acgeospatial.co.uk/python-geospatial-workflows-prt1-anaconda/
 
 ## Download and install anaconda fom here
 https://www.anaconda.com/products/individual
