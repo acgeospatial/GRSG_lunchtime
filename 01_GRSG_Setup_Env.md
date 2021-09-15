@@ -124,6 +124,8 @@ if you wish in the future to remove the kernel from Jupyter use the command
 if you wish to remove the venv at the conda prompt type
 `conda env remove -n grsg`
 
+### conda forge link
+https://anaconda.org/conda-forge/
 
 ### Problems?
 try these commands:
