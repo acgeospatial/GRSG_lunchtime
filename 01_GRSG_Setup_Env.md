@@ -26,7 +26,7 @@ Open your anaconda prompt. Note the (base) part. This is your base environment. 
 
 
 ### Step 2
-Create a new Python 3.7.7 environment (you can change this if you wish to choose an alternative version)
+Create a new Python 3.9.12 environment (you can change this if you wish to choose an alternative version)
 
 `conda create -n grsg python=3.9.12` --- updated July 2022
 
