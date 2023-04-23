@@ -20,13 +20,13 @@ https://www.reddit.com/r/Python/comments/betkoj/why_use_anaconda/
 -------------------
 
 ### Step 1
-Open your anaconda prompt. Note the (base) part. This is your base environment. In this guide we will be creating a new virtual environment called 'grsg'
+Open your anaconda prompt. Note the (base) part. This is your base environment. In this guide we will be creating a new virtual environment called 'course'
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/01_prompt.png)
 
 
 ### Step 2
-Create a new Python 3.9.12 environment (you can change this if you wish to choose an alternative version)
+Create a new Python 3.9.16 environment (you can change this if you wish to choose an alternative version)
 
 `conda create -n course python=3.9.16` --- updated July 2022
 
@@ -41,7 +41,7 @@ when prompted type `y` for yes and follow on screen instructions as below:
 ### Step 4
 Activate the environment via
 
-`conda activate grsg`
+`conda activate course`
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/05_prompt.png)
 
@@ -69,7 +69,7 @@ Getting Jupyter Notebook up and running
 
 `conda install -c anaconda ipykernel`
 
-`python -m ipykernel install --user --name=grsg`
+`python -m ipykernel install --user --name=course`
 
 `pip install rtree`
 
@@ -117,13 +117,13 @@ with no errors you are all set
 
 ![alt text](https://github.com/acgeospatial/GRSG_lunchtime/blob/main/grsg_images/11_prompt.png)
 
-## Removal in future (assuming grsg is the env name)
+## Removal in future (assuming course is the env name)
 
 if you wish in the future to remove the kernel from Jupyter use the command
-`jupyter kernelspec uninstall grsg`
+`jupyter kernelspec uninstall course`
 
 if you wish to remove the venv at the conda prompt type
-`conda env remove -n grsg`
+`conda env remove -n course`
 
 ### conda forge link
 https://anaconda.org/conda-forge/
